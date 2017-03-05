@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1029:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5200"></td>
+	<td>19&nbsp;&nbsp;[5200]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5200.html">唐彬</a></td>
+	<td class="algin-left">身份证：340221197608166256</td>
+	<td class='showtype1' title='安徽省芜湖市马塘区火龙岗镇三联行政村徐村自然村２３号'>安徽省芜湖市...</td>
+	<td class='showlist' >13866651570</td>
+	<td title='电气工程及其自动化（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='电气工程及其自动化（高起专）'>电气工程及其自...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='安庆职业技术学院学习中心 '>安庆职业技...</td>
+	<td class='showlist'>2014-02-21</td>
+    	<td>
+	<a href="/studentview5200.html">查看</a> 
+		 / <a href="/studentedit5200.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5200')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

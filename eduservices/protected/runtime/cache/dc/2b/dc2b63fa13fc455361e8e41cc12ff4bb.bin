@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1013:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5472"></td>
+	<td>18&nbsp;&nbsp;[5472]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5472.html">姜雪峰</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>330302197508163212</span></td>
+	<td class='showtype1' title='浙江省温州市鹿城区南门街道马鞍池西路新世界庄园６号楼B幢２０４室'>浙江省温州市...</td>
+	<td class='showlist' >13764386180</td>
+	<td title='工商管理（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='工商管理（高起专）'>工商管理（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='曾建国'>曾建国</td>
+	<td class='showlist'>2014-02-23</td>
+    	<td>
+	<a href="/studentview5472.html">查看</a> 
+		 / <a href="/studentedit5472.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5472')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:935:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="4376"></td>
+	<td>16&nbsp;&nbsp;[4376]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview4376.html">袁景鹰</a></td>
+	<td class="algin-left">身份证：310113198310195525</td>
+	<td class='showtype1' title='上海市长宁区虹桥机场新村285号201室'>上海市长宁区...</td>
+	<td class='showlist' >13818269031</td>
+	<td title='行政管理（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='行政管理（高起专）'>行政管理（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='无真优'>无真优</td>
+	<td class='showlist'>2014-01-17</td>
+    	<td>
+	<a href="/studentview4376.html">查看</a> 
+		 / <a href="/studentedit4376.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','4376')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

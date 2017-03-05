@@ -1,0 +1,5 @@
+.lightsGal,
+.bwGal,
+.customGal {
+    cursor: url(/js/zoomimage.jquery/images/zoomin.cur), default;
+}

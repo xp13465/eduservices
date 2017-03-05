@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:962:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5726"></td>
+	<td>5&nbsp;&nbsp;[5726]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5726.html">刘佳德</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>32068319900915935X</span></td>
+	<td class='showtype1' title='上海市黄浦区大沽路186弄1号1004室'>上海市黄浦区...</td>
+	<td class='showlist' >13816552888</td>
+	<td title='土木工程（专升本）'>专升本</td>
+	<td class='showlist showtype2' title='土木工程（专升本）'>土木工程（专升...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='曾建国'>曾建国</td>
+	<td class='showlist'>2014-02-25</td>
+    	<td>
+	<a href="/studentview5726.html">查看</a> 
+		 / <a href="/studentedit5726.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5726')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

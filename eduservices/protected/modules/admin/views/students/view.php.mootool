@@ -1,0 +1,191 @@
+<?php
+/* @var $this StudentsController */
+/* @var $model Students */
+
+$this->breadcrumbs=array(
+	'学员管理'=>array("admin/index"),
+	'学员列表'=>array("index"),
+	'学员查看',
+);
+
+$url=isset($_COOKIE['xylistreturnurl'])?$_COOKIE['xylistreturnurl']:array("index");
+if(Yii::app()->user->role==4||$model->s_status!=2){
+    $this->menu=array(
+        array('label'=>'返回列表', 'url'=>$url),
+        array('label'=>'编辑', 'url'=>array("students/edit","id"=>$model->s_id,"return"=>'view')),
+    );
+}else{
+	$this->menu=array(
+		array('label'=>'返回列表', 'url'=>$url),
+	);
+}
+
+?>
+<script type="text/javascript" src="/js/zoomimage/mootools-1-2-1.js"></script>
+<script type="text/javascript" src="/js/zoomimage/imagezoom.js"></script>
+<script type="text/javascript" src="/js/zoomimage/mootools-1-2-more.js"></script>
+<link href="/js/zoomimage/imagezoom.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/zoomimage/demos.js"></script>
+
+<div>
+<div class="form-horizontal userform">
+<table class="table table-bordered">
+  <tbody>
+  	<tr>
+      <td >
+        <?php if($model->s_stype=='1'){?>
+		<p class="pull-left lineh30 margin0  marl10 " >
+        <?php 
+            $usermodel=User::model()->findByPk($model->s_addid);
+            $Omodel=Organization::model()->findByPk($usermodel->user_organization);
+            $OName=$Omodel->o_name."-".$Omodel->o_id;
+            if($usermodel->user_role==1){
+                $POmodel=Organization::model()->findByPk($Omodel->o_pid);
+                $OName=$POmodel->o_name."-".$POmodel->o_id;
+            }
+        ?>
+        <b>录入编号：</b><span class='blcolor1 '><?="{$model->s_rpc}-{$OName}".str_pad($model->s_insertid,6,STR_PAD_LEFT)?></span>
+        <b>录入员：</b>	
+		<span class="blcolor1"><?=User::model()->getUserName($model->s_addid)?></span>
+		<span class='hcolor marl5'><?=date("Y-m-d H:i:s",$model->s_addtime)?></span>
+        <b>录入批次：</b><span class='blcolor1 '><?=$model->s_rpc?$model->s_rpc:"未安排"?></span>
+        <b>排考批次：</b><span class='blcolor1 '><?=$model->s_pc?$model->s_pc:"未安排"?></span>
+		<b>审核状态：</b>
+		<span class="blcolor1"><?=@Students::$status[$model->s_status]?></span>
+		<?php if(in_array($model->s_status,array(2,3))){?>
+			<b class='marl5'>审核员：</b><span class="blcolor1"><?=User::model()->getUserName($model->s_statusid)?></span>
+			
+			<span class='hcolor marl5'><?=date("Y-m-d H:i:s",$model->s_statustime)?></span>
+		<?php }?>
+		</p>
+        <?php }else{?>
+            <p class="pull-left lineh30 margin0  marl10 " ><b>北航导入新增</b>	
+        <?php }?>
+          <div class="btn-group pull-right marr10">
+            <a title="一栏显示" class="btn btnbg1"  href="javascript:showList(1,this)" style='<?=isset($_COOKIE['showtype'])&&$_COOKIE['showtype']=='column'?"":"background:#ddd"?>'><i class="icon-align-justify"></i></a>
+			<a title="二栏显示"  class="btn btnbg2" href="javascript:showList(2,this)" style='<?=isset($_COOKIE['showtype'])&&$_COOKIE['showtype']=='column'?"background:#ddd":""?>'><i class=" icon-th-large"></i></a>
+			<a title="打印预览报名表" class="btn" href="<?=Yii::app()->createUrl("admin/students/print",array("id"=>$model->s_id))?>" target="_blank"><i class="icon-print"></i></a>	
+            <a title="打印预览学生信息" class="btn" href="<?=Yii::app()->createUrl("admin/students/allprint",array("id"=>$model->s_id))?>" target="_blank"><i class="icon-print"></i></a>	
+		</div>
+      </td>
+    </tr>
+	<?php if($model->s_statusabout){?>
+	<tr>
+      <td>
+		<dl class='dl-beizhu margin0'>
+			<dt><b class='marl5'>审核备注:</b></dt>
+			<dd><span class='rcolor'><?=nl2br($model->s_statusabout)	?></span></dd>
+		</dl>
+      </td>
+    </tr>
+	<?php }?>
+    <tr>
+<td class=" <?=isset($_COOKIE['showtype'])&&$_COOKIE['showtype']=='column'?"linebg":"nolinebg"?>" width="100%">
+<?php 
+	$sfjsoncode=Yii::app()->cache->get("sfcode_{$model->s_credentialsnumber}");
+	if($sfjsoncode==false){
+		$sfcode=simplexml_load_file("http://www.youdao.com/smartresult-xml/search.s?type=id&q={$model->s_credentialsnumber}");
+		$array=array();
+		if($sfcode){
+			foreach($sfcode as $tmp){
+				$array['birthday']=$tmp->birthday;
+				$array['location']=$tmp->location;
+				$array['code']=$tmp->code;
+				$array['sex']=$tmp->gender=='m'?1:0;
+			}
+		}
+		Yii::app()->cache->set("sfcode_{$model->s_credentialsnumber}",json_encode($array),Yii::app()->params->cacheTime);
+	}else{
+		$array=json_decode($sfjsoncode);
+	}
+	if($array){
+		$CardDate=Students::model()->getIDCardInfo($model->s_credentialsnumber);	
+		$SFCardNum=$model->s_credentialsnumber;
+		if($model->s_credentialstype==1&&$CardDate!=date("Ymd",$model->s_birthdate)){
+			$SFCardNum=str_replace($CardDate,"<span style='color:red;'>{$CardDate}</span>",$model->s_credentialsnumber);	
+		}
+	}else{
+		$SFCardNum="<span style='color:red;'>{$model->s_credentialsnumber}</span>";
+	}
+	
+?>
+<div class="<?=isset($_COOKIE['showtype'])?$_COOKIE['showtype']:"nocolumn"?>">
+	<div>
+		<dl class="dl-horizontal">
+			<dt>姓名</dt><dd><?=$model->s_name?>&nbsp;</dd>
+			<dt>性别</dt><dd><?=Students::$sex[$model->s_sex]?>&nbsp;</dd>
+			<dt>个人照片</dt><dd class="gr-photo"><a   title="个人照片" rel="imagezoom[1]"  target='_blank' href='<?=$model->s_headerimg?>'><img src="<?=$model->s_headerimg?>" /></a>&nbsp;</dd>
+			<dt>证件号码</dt><dd><?=Students::$credentialstype[$model->s_credentialstype]."：".$SFCardNum?>&nbsp;</dd>
+			<dt>证件扫描件</dt>
+			<dd class="smj-photo">
+				<a   title="身份证扫描件正面" rel="imagezoom[1]" target='_blank' href='<?=$model->s_credentialsimg1?>'><img src="<?=$model->s_credentialsimg1?>" /></a>
+				
+				<a   title="身份证扫描件反面" rel="imagezoom[1]" target='_blank' href='<?=$model->s_credentialsimg2?>'><img src="<?=$model->s_credentialsimg2?>" /></a>
+				&nbsp;
+			</dd>
+			<dt>出生日期</dt><dd><?=date("Ymd",$model->s_birthdate)?>&nbsp;</dd>
+			<dt>出生地</dt><dd><?=$model->s_birthaddress?>&nbsp;</dd>
+			<dt>民族</dt><dd><?=Lookup::model()->getValueName($model->s_nationality,"nationality")?>&nbsp;</dd>
+			<dt>政治面貌</dt><dd><?=Lookup::model()->getValueName($model->s_politicalstatus,"politicalstatus")?>&nbsp;</dd>
+			<dt>最高学历</dt><dd><?=isset(Students::$highesteducation[$model->s_highesteducation])?Students::$highesteducation[$model->s_highesteducation]:''?>&nbsp;</dd>
+			<dt>手机</dt><dd><?=$model->s_phone?>&nbsp;</dd>
+			<dt>邮箱</dt><dd><?=$model->s_email?>&nbsp;</dd>
+			<dt>报考层次</dt><dd><?=Lookup::model()->getValueName($model->s_baokaocengci,"professionallevel")?>&nbsp;</dd>
+			<dt>报考专业</dt><dd><?=Professional::model()->getZyName($model->s_baokaozhuanye)?>&nbsp;</dd>
+			<dt>职业状况</dt><dd><?=isset(Students::$profession[$model->s_zhiyezhuangkuang])?Students::$profession[$model->s_zhiyezhuangkuang]:''?>&nbsp;</dd>
+			<dt>婚姻状况</dt><dd><?=isset(Students::$marital[$model->s_hunyinzhuangkuang])?Students::$marital[$model->s_hunyinzhuangkuang]:''?>&nbsp;</dd>
+		</dl>
+	</div>
+</div>
+<div class="<?=isset($_COOKIE['showtype'])?$_COOKIE['showtype']:"nocolumn"?>">
+	<div>
+		<dl class="dl-horizontal">
+			<dt>家庭地址</dt><dd><?=$model->s_familyaddress?$model->s_familyaddress:"&nbsp;"?></dd>
+			<dt>工作单位</dt><dd><?=$model->s_gongzuodanwei?$model->s_gongzuodanwei:"&nbsp;"?></dd>
+			<dt>邮编</dt><dd><?=$model->s_youbian?$model->s_youbian:"&nbsp;"?></dd>
+			<dt>通讯地址</dt><dd><?=$model->s_contactaddress?$model->s_contactaddress:"&nbsp;"?></dd>
+			<dt>联系电话</dt><dd><?=$model->s_tel?$model->s_tel:"&nbsp;"?></dd>
+			<dt>生源地</dt><dd><?=Lookup::model()->getValueName($model->s_sfromaddress,"studentsfrom")?>&nbsp;</dd>
+			<dt>生源状况</dt><dd><?=Lookup::model()->getValueName($model->s_sfromtype,"studentsfromstatus")?>&nbsp;</dd>
+			<dt>参加工作时间</dt><dd><?=date("Y-m",$model->s_cjgztime)?>&nbsp;</dd>
+			<?php if(in_array($model->s_highesteducation,array(2,3,4,5))){?>
+			<dt>原毕业院校</dt><dd><?=$model->s_oldschool?>&nbsp;</dd>
+			<dt>原毕业院校代码</dt><dd><?=$model->s_oldschoolcode?$model->s_oldschoolcode:"&nbsp;"?></dd>
+			<dt>原毕业专业</dt><dd><?=$model->s_oldzhuanye?>&nbsp;</dd>
+			<dt>原毕业时间</dt><dd><?=date("Y-m",$model->s_oldtime)?>&nbsp;</dd>
+			<?php }?>
+			<dt>原毕业证书编号</dt><dd><?=$model->s_oldimgnumber?>&nbsp;</dd>
+			<?php if(in_array($model->s_baokaocengci,array(2))){?>
+			<dt>专升本证明</dt><dd class="smj-photo">
+			<a  title="专升本证明" rel="imagezoom[1]"  target='_blank' href='<?=$model->s_zsbzm?>'><img src="<?=$model->s_zsbzm?>	" /></a>&nbsp;</dd>
+			<?php }?>
+			<dt>原毕业证书扫描件</dt><dd class="smj-photo">
+			<a  title="原毕业证书扫描件" rel="imagezoom[1]"   target='_blank' href='<?=$model->s_oldimg?>'><img src="<?=$model->s_oldimg?>	" /></a>&nbsp;
+			</dd>
+			<dt>入学方式</dt><dd><?=isset(Students::$enrollment[$model->s_enrollment])?Students::$enrollment[$model->s_enrollment]:""?>&nbsp;</dd>
+			<dt>学习类型</dt><dd><?=isset(Students::$study[$model->s_study])?Students::$study[$model->s_study]:""?>&nbsp;</dd>
+			<dt>其他证明材料</dt><dd><a href='<?=$model->s_file?>'><?=$model->s_file?></a>&nbsp;</dd>
+			<dt>生源类型</dt><dd><?=isset(Students::$bdtype[$model->s_idbd])?Students::$bdtype[$model->s_idbd]:""?></a>&nbsp;</dd>
+			
+		</dl>
+	</div>
+</div>	
+
+      </td>
+    </tr>
+<!--     <tr>
+      <td>
+<div class="form-actions">
+<button type="submit" class="btn btn-primary" name="addsubmit" value="add">修改数据</button>&nbsp;
+<button type="reset" class="btn">重新填写</button>
+</div>
+      </td>
+    </tr> -->
+
+
+
+  </tbody>
+
+</table>
+</div>
+          </div>

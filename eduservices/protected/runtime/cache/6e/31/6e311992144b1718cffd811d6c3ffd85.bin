@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:964:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5511"></td>
+	<td>19&nbsp;&nbsp;[5511]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5511.html">郭力睿</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>142636198609111412</span></td>
+	<td class='showtype1' title='山西省汾西县勍香镇前东沟村058号'>山西省汾西县...</td>
+	<td class='showlist' >18616773570</td>
+	<td title='工商管理（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='工商管理（高起专）'>工商管理（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='曾建国'>曾建国</td>
+	<td class='showlist'>2014-02-23</td>
+    	<td>
+	<a href="/studentview5511.html">查看</a> 
+		 / <a href="/studentedit5511.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5511')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1013:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="418"></td>
+	<td>39&nbsp;&nbsp;[418]</td>
+    <td class='showlist'>1309</td>
+    	<td>
+        20130825            </td>
+	<td><a href="/studentview418.html">彭仁钟</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>352101197805022318</span></td>
+	<td class='showtype1' title='福建省福州市仓山区上渡路397号'>福建省福州市...</td>
+	<td class='showlist' >13725545909</td>
+	<td title='机械设计制造及其自动化（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='机械设计制造及其自动化（高起专）'>机械设计制造及...</td>
+	
+    <td><span class='blcolor1'>已审核</span></td>
+    <td title='南汇机构'>南汇机构</td>
+	<td class='showlist'>2013-07-05</td>
+    	<td>
+	<a href="/studentview418.html">查看</a> 
+		 / <a href="/studentedit418.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','418')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

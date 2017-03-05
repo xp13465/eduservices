@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1017:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5693"></td>
+	<td>31&nbsp;&nbsp;[5693]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5693.html">岳超</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>371521198602081435</span></td>
+	<td class='showtype1' title='山东省阳谷县张秋镇南街村闸堤口街0013号'>山东省阳谷县...</td>
+	<td class='showlist' >13862540751</td>
+	<td title='经济学（经济管理专升本）'>专升本</td>
+	<td class='showlist showtype2' title='经济学（经济管理专升本）'>经济学（经济管...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='泰州市科技专修学校 '>泰州市科技...</td>
+	<td class='showlist'>2014-02-24</td>
+    	<td>
+	<a href="/studentview5693.html">查看</a> 
+		 / <a href="/studentedit5693.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5693')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

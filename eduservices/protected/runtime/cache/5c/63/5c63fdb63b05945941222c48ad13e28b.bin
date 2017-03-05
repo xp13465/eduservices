@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:993:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5621"></td>
+	<td>5&nbsp;&nbsp;[5621]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5621.html">廖冬云</a></td>
+	<td class="algin-left">身份证：430124198510242513</td>
+	<td class='showtype1' title='湖南省宁乡县青山桥镇友园村三组'>湖南省宁乡县...</td>
+	<td class='showlist' >15802612822</td>
+	<td title='计算机科学与技术（专升本）'>专升本</td>
+	<td class='showlist showtype2' title='计算机科学与技术（专升本）'>计算机科学与技...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='湖南现代物流职业技术学院01'>湖南现代物...</td>
+	<td class='showlist'>2014-02-24</td>
+    	<td>
+	<a href="/studentview5621.html">查看</a> 
+		 / <a href="/studentedit5621.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5621')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

@@ -1,0 +1,13 @@
+a:2:{i:0;a:2:{i:0;s:307:"<tr>
+	<td><input type="checkbox" name="selectdel[]" value="4"></td>
+	<td>北京交通大学</td>
+	<td>10004</td>
+	<td>北京市</td>
+	<td>有</td>
+	<td>有</td>
+	<td>
+				<a href="/schooledit4.html">编辑</a> / 
+		<a href="javascript:void(0)" onclick="deleteOne('school','4')">删除</a></td>
+	</td>
+</tr>
+";i:1;N;}i:1;N;}

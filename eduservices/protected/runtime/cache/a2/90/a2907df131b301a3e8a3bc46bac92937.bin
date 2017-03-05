@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1017:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5489"></td>
+	<td>10&nbsp;&nbsp;[5489]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5489.html">陈杰嵘</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>350204197603281015</span></td>
+	<td class='showtype1' title='福建省厦门市思明区双涵一组52号'>福建省厦门市...</td>
+	<td class='showlist' >18501679778</td>
+	<td title='机械工程及自动化（机电一体化高起专）'>高起专</td>
+	<td class='showlist showtype2' title='机械工程及自动化（机电一体化高起专）'>机械工程及自动...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='曾建国'>曾建国</td>
+	<td class='showlist'>2014-02-23</td>
+    	<td>
+	<a href="/studentview5489.html">查看</a> 
+		 / <a href="/studentedit5489.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5489')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

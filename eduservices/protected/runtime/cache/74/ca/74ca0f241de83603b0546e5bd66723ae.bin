@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1012:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5394"></td>
+	<td>19&nbsp;&nbsp;[5394]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5394.html">熊国霖</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>510824198805207131</span></td>
+	<td class='showtype1' title='四川省苍溪县高坡镇代庙村七组１４号'>四川省苍溪县...</td>
+	<td class='showlist' >15800462928</td>
+	<td title='机械设计制造及其自动化（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='机械设计制造及其自动化（高起专）'>机械设计制造及...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='新世界'>新世界</td>
+	<td class='showlist'>2014-02-22</td>
+    	<td>
+	<a href="/studentview5394.html">查看</a> 
+		 / <a href="/studentedit5394.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5394')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

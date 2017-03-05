@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:955:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5699"></td>
+	<td>25&nbsp;&nbsp;[5699]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5699.html">纪辰阳</a></td>
+	<td class="algin-left">身份证：321102199101300411</td>
+	<td class='showtype1' title='江苏省镇江市京口区酒海街2号'>江苏省镇江市...</td>
+	<td class='showlist' >15061122823</td>
+	<td title='土木工程（专升本）'>专升本</td>
+	<td class='showlist showtype2' title='土木工程（专升本）'>土木工程（专升...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='常州市成人进修学院 '>常州市成人...</td>
+	<td class='showlist'>2014-02-24</td>
+    	<td>
+	<a href="/studentview5699.html">查看</a> 
+		 / <a href="/studentedit5699.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5699')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

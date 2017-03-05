@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1030:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="3320"></td>
+	<td>2&nbsp;&nbsp;[3320]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+        20131214            </td>
+	<td><a href="/studentview3320.html">王静</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>410721198311193042</span></td>
+	<td class='showtype1' title='江苏省昆山市陆家镇陈巷村东竹家泾村民小组24号'>江苏省昆山市...</td>
+	<td class='showlist' >15358837703</td>
+	<td title='人力资源管理（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='人力资源管理（高起专）'>人力资源管理（...</td>
+	
+    <td><span class='blcolor1'>已审核</span></td>
+    <td title='泰州市科技专修学校 '>泰州市科技...</td>
+	<td class='showlist'>2013-12-09</td>
+    	<td>
+	<a href="/studentview3320.html">查看</a> 
+		 / <a href="/studentedit3320.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','3320')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

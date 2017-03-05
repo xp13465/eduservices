@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:957:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5599"></td>
+	<td>8&nbsp;&nbsp;[5599]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5599.html">江波</a></td>
+	<td class="algin-left">身份证：430623197507092418</td>
+	<td class='showtype1' title='长沙市雨花区中意一路646号'>长沙市雨花区...</td>
+	<td class='showlist' >15810010709</td>
+	<td title='工商管理（专升本）'>专升本</td>
+	<td class='showlist showtype2' title='工商管理（专升本）'>工商管理（专升...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='湖南现代物流职业技术学院01'>湖南现代物...</td>
+	<td class='showlist'>2014-02-24</td>
+    	<td>
+	<a href="/studentview5599.html">查看</a> 
+		 / <a href="/studentedit5599.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5599')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

@@ -1,0 +1,59 @@
+/* start login */
+#login_bg { background:#fff url(/images/login_bg.gif) repeat;}
+.login_class { width:100%; height:100%;}
+.login_box { width:245px; height:417px; background:url(/images/login_dlbg.gif) no-repeat;}
+.login_bottom { width:auto; height:62px; margin-top:10px;}
+
+/* end login */
+/* start js.css */
+#spliter01{display:block;}
+#spliter02{display:none;}
+
+/****/
+.no_treeview {height:24px; line-height:24px; margin:4px 0;}
+.no_treeview .ico_no_show {width:16px; height:16px; margin-left:10px; margin-right:6px; display:inline; margin-top:3px; text-align: center; background:url("/images/ricon.gif") 0 -620px no-repeat;cursor:pointer;float:left;}
+.no_treeview .menu_title {width:auto; height:24px; float:left; font-weight:bold;}
+.treeview {height:auto; margin:4px 0;}
+.treeview .ico_show {width:18px; height:18px; margin-left:10px; margin-right:6px; display:inline; margin-top:1px; text-align: center; background:url("/images/admin_icon.gif") -18px center  no-repeat;cursor:pointer;float:left;}
+.treeview .menu_title {width:auto; height:auto; font-weight:bold;}
+.treeview .menu_list_show { display:block; margin:4px 0;}
+.treeview .menu_list_show ul li { height:20px; line-height:20px; margin-left:34px;}
+
+/* end js.css */
+/* start top */
+#top {height:79px;background:#024ea2 url('/images/headerboxbg.png') top center repeat-x;}
+.welcome { position:absolute;top:18px;right:20px; font-size:14px;}
+span.welcome-name { float:left; margin-top:8px;}
+i.red { color:#f00;}
+a.out { font-size:12px; display:block; float: left; width:40px; height:40px; border:1px solid #9fc6ff; text-decoration:none; color:#333}
+a.out:hover { width:40px; height:40px;border:1px solid #609ef8;background:#dce9fc; color:#666 }
+a.out img { display:block; margin-top:3px; margin-left:12px;}
+a.out span { display:block; text-align:center;}
+
+/* end top */
+/* start meun */
+.class_menu{width:160px;height:650px;float:left;}
+.menu_sidar{width:100%;height:inherit;overflow-y:auto;}
+
+/* end meun */
+/* start spliter */
+.class_spliter01{width:7px;height:650px;background:#024ea2 url("/images/admin_icon.gif") -10px center no-repeat;cursor:pointer;float:left;}
+.class_spliter02{width:7px;height:650px;background:#024ea2 url("/images/admin_icon.gif") 0px center no-repeat;cursor:pointer;float:left;}
+
+/* end spliter */
+/* start spliter */
+
+/* start main */
+.exam-box { height:100%; padding:10px;}
+.search p { padding:0 5px;}
+.exam-list,.exam-fy { margin-top:8px;}
+.table-list { width:100%; font-size:12px; border:1px solid #aaa; border-collapse:collapse;}
+.table-list tr td { border:1px solid #aaa;}
+.table-list thead tr td {font-weight:700;}
+.table-list tbody tr td {color:#666;}
+.exam-fy { padding:0 12px; color:#333;}
+.exam-fy a {color:#666;}
+.exam-fy a:hover {color:#333;}
+.blue { color:blue; font-weight:700;}
+.yellow {color:#ff7e00;}
+/* end main */

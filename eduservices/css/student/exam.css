@@ -1,0 +1,23 @@
+*{margin:0; padding:0; }
+/* exam */
+.info { position:fixed; width:100%; height:90px; background:#0095ff; overflow:hidden;}
+.info-box { width:990px; margin:0 auto;}
+.wrapper { width:990px; padding-top:120px; margin:0 auto;}
+.exam { height:auto; overflow:hidden; margin-bottom:30px; border-bottom:2px dotted #f00; }
+.exam-note { font-size:12px; margin-bottom:8px;}
+.exam h1 { font-size:28px; text-align:center; margin-bottom:18px;}
+.exam h2 { font-size:22px; text-align:center;}
+h3.exam-tips { color:#0f71b7;}
+.exam-read { color:#666; font-size:12px; margin-top:6px; line-height:20px;}
+.exam-list { margin-top:10px; margin-bottom:25px;margin-left: 30px;}
+h6.exam-title { font-size:18px;}
+ul.exam-answer { list-style:none; margin-left:12px; font-size:14px;} 
+ul.exam-answer li {line-height:16px; margin-top:10px;}
+.exam-list img{vertical-align:middle;}
+.exam-submit input { padding:8px; margin-bottom:50px;}
+.logo { margin-top:8px; float:left;}
+.logo img { float:left;}
+.logo span { float:left; font-size:30px; font-weight:700; color:#fff; margin-top:18px;}
+.info-right { float:right; color:#fff; font-size:14px; margin-top:15px;}
+.box-save { margin-top:12px;}
+.box-save input { padding:3px; margin-right:5px; display:inline;}

@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1054:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5485"></td>
+	<td>12&nbsp;&nbsp;[5485]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5485.html">李世录</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>532628198107181317</span></td>
+	<td class='showtype1' title='云南省文山壮族苗族自治州富宁县剥隘镇那良村民委六买小组'>云南省文山壮...</td>
+	<td class='showlist' >13918176278</td>
+	<td title='机械工程及自动化（机电一体化高起专）'>高起专</td>
+	<td class='showlist showtype2' title='机械工程及自动化（机电一体化高起专）'>机械工程及自动...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='曾建国'>曾建国</td>
+	<td class='showlist'>2014-02-23</td>
+    	<td>
+	<a href="/studentview5485.html">查看</a> 
+		 / <a href="/studentedit5485.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5485')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

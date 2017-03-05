@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:927:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="4567"></td>
+	<td>7&nbsp;&nbsp;[4567]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview4567.html">何星</a></td>
+	<td class="algin-left">身份证：310105198205222819</td>
+	<td class='showtype1' title='上海市闵行区宋园路125弄1号1004室'>上海市闵行区...</td>
+	<td class='showlist' >13817924696</td>
+	<td title='工商管理（专升本）'>专升本</td>
+	<td class='showlist showtype2' title='工商管理（专升本）'>工商管理（专升...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='无真优'>无真优</td>
+	<td class='showlist'>2014-02-10</td>
+    	<td>
+	<a href="/studentview4567.html">查看</a> 
+		 / <a href="/studentedit4567.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','4567')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

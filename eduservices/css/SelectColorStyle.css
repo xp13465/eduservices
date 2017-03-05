@@ -1,0 +1,45 @@
+﻿/*头部样式开始*/
+#header_selectcolor
+{
+    float: right;
+    height: 20px;
+    border: 0px solid #AAAAAA;
+    padding:68px 20px 5px 0px !important;
+}
+
+/*切换皮肤样式*/
+#skin
+{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    
+    list-style: none;
+    /*border: 2px solid #FFFFCC;
+    width: 92px;
+    background: #FFFFCC;*/
+}
+#skin li { 
+	float:left; 
+	margin-left:2px; 
+	margin-right:2px; 
+	width:14px; 
+	height:14px; 
+	text-indent:-9999px; 
+	overflow:hidden; 
+	display:block; 
+	cursor:pointer; 
+	border: 1px solid #FFF;
+	background-image:url(../images/theme.gif); 
+}
+#skin_0 { background-position:0px 0px; }
+#skin_1 { background-position:75px 0px; }
+#skin_2 { background-position:55px 0px; }
+#skin_3 { background-position:35px 0px; }
+#skin_4 { background-position:15px 0px; }
+#skin_0.selected { background-position:0px 15px; }
+#skin_1.selected { background-position:75px 15px; }
+#skin_2.selected { background-position:55px 15px; }
+#skin_3.selected { background-position:35px 15px; }
+#skin_4.selected { background-position:15px 15px; }
+

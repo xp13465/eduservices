@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:995:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5702"></td>
+	<td>22&nbsp;&nbsp;[5702]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5702.html">饶丽丽</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>340827198305141022</span></td>
+	<td class='showtype1' title='江苏省金湖县吕良镇付圩村四组195号'>江苏省金湖县...</td>
+	<td class='showlist' >18694920866</td>
+	<td title='工商管理（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='工商管理（高起专）'>工商管理（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='泰州市科技专修学校 '>泰州市科技...</td>
+	<td class='showlist'>2014-02-25</td>
+    	<td>
+	<a href="/studentview5702.html">查看</a> 
+		 / <a href="/studentedit5702.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5702')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

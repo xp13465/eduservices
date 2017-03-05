@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:958:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5505"></td>
+	<td>28&nbsp;&nbsp;[5505]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5505.html">刘磊</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>620502198701191375</span></td>
+	<td class='showtype1' title='甘肃省天水市秦州区皇城路１９３号'>甘肃省天水市...</td>
+	<td class='showlist' >13774241404</td>
+	<td title='会计学（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='会计学（高起专）'>会计学（高起专...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='曾建国'>曾建国</td>
+	<td class='showlist'>2014-02-23</td>
+    	<td>
+	<a href="/studentview5505.html">查看</a> 
+		 / <a href="/studentedit5505.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5505')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

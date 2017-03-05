@@ -1,0 +1,13 @@
+*{ margin:0; padding:0;}
+body {font-size:12px; background:#fff; color:#333; line-height:22px;}
+div { overflow:hidden;}
+a { color:#333; text-decoration:none;}
+a:hover { color:#008; text-decoration:underline;}
+ul,dl { list-style:none;}
+h1,h2,h3 { font-size:12px;}
+from { display:inline;}
+img { border:none;}
+/*阅读器的样式表*/
+html,body{overflow:hidden;}
+.lfloat { float:left;}
+.rfloat { float:right;}

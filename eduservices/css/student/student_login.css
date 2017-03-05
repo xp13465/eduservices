@@ -1,0 +1,150 @@
+
+a:link {
+    color: #003399;
+    padding: 0;
+    text-decoration: none;
+}
+a.white:link {
+    color: #FFFFFF;
+    padding: 0;
+    text-decoration: none;
+}
+a:visited {
+    color: #003399;
+    text-decoration: none;
+}
+a.white:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF3300;
+    text-decoration: underline;
+}
+a.white:hover {
+    color: #FF0000;
+    text-decoration: none;
+}
+a:active {
+    color: #FF3300;
+    text-decoration: none;
+}
+a.white:active {
+    color: #FF3300;
+    text-decoration: none;
+}
+body {
+    font-family: ????;
+    font-size: 9pt;
+}
+body, div, p, td, input {
+    font-family: ????;
+    font-size: 9pt;
+}
+td {
+    height: 22px;
+}
+.areanormal {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0;
+}
+.border {
+    background-image: url("images/table_bg1.gif");
+    color: Black;
+    font-weight: bold;
+}
+.border_blue {
+    background-color: #7BB4F2;
+    background-image: url("images/table_bg.gif");
+    background-repeat: repeat;
+    color: #333333;
+    font-weight: bold;
+}
+.border_blue2 {
+    background-color: #7BB4F2;
+    background-image: url("images/table_bg.gif");
+    background-repeat: repeat;
+    color: #333333;
+    font-weight: bold;
+}
+.border_bold {
+    color: Black;
+    font-weight: bold;
+}
+.buttonarea {
+    background-color: #000000;
+}
+.c01 {
+    border: 1px solid #0772DC;
+    vertical-align: text-bottom;
+}
+.c02 {
+    background-color: #F1F1F1;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    padding-top: 2px;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+.inputedit {
+    background-color: #CDDEED;
+    border: 1px solid #6699CC;
+}
+.inputnormal {
+    background-color: #F1F1F1;
+    border: 1px solid #C0C0C0;
+    text-align: center;
+}
+.s01 {
+    border-style: inset;
+    border-width: 1px;
+}
+.s02 {
+    background-color: #F1F1F1;
+    border-left: 1px ridge #FFFFFF;
+    border-style: ridge;
+    border-top: 1px ridge #FFFFFF;
+    border-width: 1px;
+    height: 16pt;
+    padding-top: 2px;
+}
+.s03 {
+    background-color: #F1F1F1;
+    border-style: none;
+    border-width: 1px;
+    text-align: left;
+}
+.s04 {
+    background-color: #F1F1F1;
+    border-style: none;
+    border-width: 1px;
+}
+.trover {
+    background-color: #7BB4F2;
+    color: #FFFFFF;
+}
+.buttonface {
+    background-image: url("img/button_1.gif");
+    border-color: #FFFFFF #919191 #919191 #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-family: "????";
+    font-size: 12px;
+    height: 18px;
+    margin: 0;
+    text-decoration: none;
+}
+.kong {
+    height: 14px;
+    margin: 0;
+    width: auto;
+}
+.message {
+    font-size:16px;
+    font-weight:bold;
+    color:#FF4500;
+}

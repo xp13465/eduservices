@@ -1,0 +1,118 @@
+<?php
+
+// uncomment the following to define a path alias
+// Yii::setPathOfAlias('local','path/to/local-folder');
+
+// This is the main Web application configuration. Any writable
+// CWebApplication properties can be configured here.
+require(dirname(__FILE__).'/define.php');//加载定义的全局变量
+
+return array(
+        'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+        'name'=>'学校公共服务体系系统',
+        'language'=>'zh_cn',
+		'preload'=>array('log'),
+        // autoloading model and component classes
+        'import'=>array(
+                'application.models.*',
+                'application.components.*',
+                'application.common.*',
+				// 'application.vendors.*',
+        ),
+
+        'defaultController'=>'site',
+
+        // application components
+        'components'=>array(
+                'user'=>array(
+                        'allowAutoLogin'=>true,
+                        'loginUrl' => array('/site/index'),
+                        // 'identityCookie'=>array('domain' => '.onlinebeihang.com','path' => '/'),//配置用户cookie作用域
+                        // 'stateKeyPrefix'=>'www',//你的前缀，必须指定为一样的
+                        'loginUrl'=>array('/user/login'),
+                ),
+                'session' => array(
+                    // 'cookieParams' => array('domain' => '.onlinebeihang.com', 'lifetime' => 0),//配置会话ID作用域 生命期和超时
+                    'timeout' => 3600,
+                ),
+                // 'statePersister'=>array( //指定cookie加密的状态文件
+                // 'class'=>'CStatePersister',//指定类
+                // 'stateFile'=>'../protected/runtime/state.bin',//配置通用状态文件路径，注意，如果你的站点是分布式的，你必须把该文件复制一份到不同服务器上，否则无法跨域。因为里面有个通用密钥，密钥不同则无法验证身份。
+                // ),
+                'authManager'=>array(
+                //enable auth user by roles
+                        'class'=>'CDbAuthManager',
+                        'itemTable' => 'es_authitem',//认证项表名称
+                        'itemChildTable'=> 'es_authitemchild',//认证项父子关系
+                        'assignmentTable' =>'es_authassignment',//认证项赋权关系
+                ),
+                'db'=>array(
+                        'class'=>'system.db.CDbConnection',
+                        'connectionString' => 'mysql:host=localhost;dbname=eduservices',
+                        'emulatePrepare' => true,
+                        'username' => 'eduservices',
+                        'password' => '123456#edu',
+                        'charset' => 'utf8',
+                        'tablePrefix' => 'es_',
+                        'schemaCachingDuration'=>3600,
+                ),
+                'errorHandler'=>array(
+                // use 'site/error' action to display errors
+                        'errorAction'=>'site/error',
+                ),
+                'log'=>array(
+                        'class'=>'CLogRouter',
+                        'routes'=>array(
+								
+								/* 
+								array(
+								'class'=>'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
+								'ipFilters'=>array('127.0.0.1','10.172.48.246',"10.172.48.249","10.172.48.16"),
+								),
+								
+                               array(
+                                       'class'=>'CProfileLogRoute',
+                                ),
+								array(
+									'class' => 'CFileLogRoute',
+									'levels' => 'trace, info, error, warning',
+								),
+								array(
+									'class' => 'CWebLogRoute',
+									
+								),*/
+
+                        ),
+                ),
+				'cache' => array (
+
+					'class' => 'system.caching.CFileCache',
+
+					 'directoryLevel' => 2,
+
+				),
+                'urlManager'=>array(
+                        'urlFormat'=>'path',
+                        'showScriptName'=>false,
+						'urlSuffix' => '.html',//后缀  
+                        'rules'=>array(
+							'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+							'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+							'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+							// 'http://api.onlinebeihang.com'=>array('/api', 'urlSuffix'=>'', 'caseSensitive'=>false),
+                            // 'http://api.onlinebeihang.com/user'=>array('/api/user/', 'urlSuffix'=>'', 'caseSensitive'=>false),
+                        ),
+                ),
+        ),
+        'modules'=>array(
+                "api",
+                "admin",
+                "student",
+                "manage",
+                /*'gii'=>array(
+                        'class'=>'system.gii.GiiModule',
+                        'password'=>'qd',
+                )*/
+        ),
+        'params'=>require(dirname(__FILE__).'/params.php'),
+);

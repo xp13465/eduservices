@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1005:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="4728"></td>
+	<td>19&nbsp;&nbsp;[4728]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview4728.html">李甲</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>130524198607264015</span></td>
+	<td class='showtype1' title='河北省邢台市柏乡县固城店镇市中村80号'>河北省邢台市...</td>
+	<td class='showlist' >13916378421</td>
+	<td title='机械设计制造及其自动化（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='机械设计制造及其自动化（高起专）'>机械设计制造及...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='学森'>学森</td>
+	<td class='showlist'>2014-02-16</td>
+    	<td>
+	<a href="/studentview4728.html">查看</a> 
+		 / <a href="/studentedit4728.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','4728')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

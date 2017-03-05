@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:965:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5483"></td>
+	<td>20&nbsp;&nbsp;[5483]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5483.html">吴金平</a></td>
+	<td class="algin-left">身份证：321081196807181836</td>
+	<td class='showtype1' title='江苏省仪征市新城镇林果村韩塘组36号'>江苏省仪征市...</td>
+	<td class='showlist' >15949050951</td>
+	<td title='土木工程（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='土木工程（高起专）'>土木工程（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='常州市成人进修学院 '>常州市成人...</td>
+	<td class='showlist'>2014-02-23</td>
+    	<td>
+	<a href="/studentview5483.html">查看</a> 
+		 / <a href="/studentedit5483.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5483')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

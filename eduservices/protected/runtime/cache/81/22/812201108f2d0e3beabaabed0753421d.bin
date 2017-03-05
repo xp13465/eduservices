@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:918:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="4544"></td>
+	<td>8&nbsp;&nbsp;[4544]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview4544.html">戴明杰</a></td>
+	<td class="algin-left">身份证：310102198710024451</td>
+	<td class='showtype1' title='上海市黄浦区小方弄27号'>上海市黄浦区...</td>
+	<td class='showlist' >13621834258</td>
+	<td title='市场营销（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='市场营销（高起专）'>市场营销（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='无真优'>无真优</td>
+	<td class='showlist'>2014-02-08</td>
+    	<td>
+	<a href="/studentview4544.html">查看</a> 
+		 / <a href="/studentedit4544.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','4544')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

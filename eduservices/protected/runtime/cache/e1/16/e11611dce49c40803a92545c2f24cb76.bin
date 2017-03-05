@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:947:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5666"></td>
+	<td>38&nbsp;&nbsp;[5666]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5666.html">倪娜</a></td>
+	<td class="algin-left">身份证：320103198208101261</td>
+	<td class='showtype1' title='南京市白下区小利济巷30号'>南京市白下区...</td>
+	<td class='showlist' >13851601289</td>
+	<td title='土木工程（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='土木工程（高起专）'>土木工程（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='泰州市科技专修学校 '>泰州市科技...</td>
+	<td class='showlist'>2014-02-24</td>
+    	<td>
+	<a href="/studentview5666.html">查看</a> 
+		 / <a href="/studentedit5666.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5666')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

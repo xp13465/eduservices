@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:1002:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5715"></td>
+	<td>9&nbsp;&nbsp;[5715]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5715.html">张鑫</a></td>
+	<td class="algin-left">身份证：<span style='color:red;'>610115199112165518</span></td>
+	<td class='showtype1' title='西安市临潼区交口镇郭杨村郭东组5号'>西安市临潼区...</td>
+	<td class='showlist' >15129064749</td>
+	<td title='行政管理（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='行政管理（高起专）'>行政管理（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='湖南现代物流职业技术学院01'>湖南现代物...</td>
+	<td class='showlist'>2014-02-25</td>
+    	<td>
+	<a href="/studentview5715.html">查看</a> 
+		 / <a href="/studentedit5715.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5715')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:967:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5686"></td>
+	<td>38&nbsp;&nbsp;[5686]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5686.html">郭中琴</a></td>
+	<td class="algin-left">身份证：32048119850527501X</td>
+	<td class='showtype1' title='江苏省溧阳市上沛镇彭家村委郭家村2号'>江苏省溧阳市...</td>
+	<td class='showlist' >18013757551</td>
+	<td title='土木工程（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='土木工程（高起专）'>土木工程（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='泰州市科技专修学校 '>泰州市科技...</td>
+	<td class='showlist'>2014-02-24</td>
+    	<td>
+	<a href="/studentview5686.html">查看</a> 
+		 / <a href="/studentedit5686.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5686')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}

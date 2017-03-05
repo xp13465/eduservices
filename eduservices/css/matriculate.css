@@ -1,0 +1,44 @@
+*{
+	margin:0 0;
+	padding:0 0;
+}
+body#body-bg {
+	background-image: url("/images/lqcx_bg.jpg");
+	background-repeat: repeat-x;
+	background-color: #dbdbdb;
+}
+#main {
+	height: 635px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url("/images/lqcx.jpg");
+	background-repeat: no-repeat;
+}
+#login {
+	float: right;
+	height: 140px;
+	width: 280px;
+	margin-top: 280px;
+	margin-right: 250px;
+}
+#login table {
+	font-size: 14px;
+	color: #333;
+}
+.width50 { width:50px; display:inline-block;}
+#matriculate-box { margin:0 auto; width:794px;height:1123px; overflow: hidden;}
+.matriculate-info { width:794px;height:auto; overflow: hidden;}
+.matriculate-tip{ text-align:center;color:red; margin-top:10px;}
+.matriculate-bg { background:#fff url("/images/matriculatebg.gif") top center no-repeat;}
+.matriculate-text { width:650px; height:auto; margin:380px auto 0px auto;
+	text-align:justify; text-justify:inter-ideograph; }
+.matriculate-text p{ font-size:20px; font-weight:700;}
+span.line { border-bottom:2px solid #000; padding:2px 30px; font-weight:200;}
+span.line-ds { vertical-align:middle; height:24px; line-height:20px; overflow:hidden; display:inline-block; width:240px; border-bottom:2px solid #000; padding:0px 30px; font-weight:200;}
+span.line-mini { border-bottom:2px solid #000; padding:2px 25px; font-weight:200;}
+span.line-mini-kh { padding:6px 20px; }
+.matriculate-code { height:40px; overflow:hidden; float:right; padding-right:20px;}
+.matriculate-name { height:40px; overflow:hidden; clear:both;}
+.matriculate-note { height:220px;  line-height:42px;}
+.matriculate-sign { float:right; width:280px; margin-top:30px; line-height:55px; text-align: center;}

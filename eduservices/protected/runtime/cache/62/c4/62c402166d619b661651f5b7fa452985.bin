@@ -1,0 +1,33 @@
+a:2:{i:0;a:2:{i:0;s:2001:"<div id="ifocus">
+    <div id="ifocus_pic">
+        <div id="ifocus_piclist" style="left:0px; top:-185px;">
+            <span id="ctl00_ctl00_cphContent_cphContent_PortalFlash1_lab1">
+                <ul>
+                                        <li ><a href="javascript:void(0)"><img src="/upload/advertisement/136668615444.jpeg" style="width:585px;height:185px;"></a></li>
+                                        <li ><a href="javascript:void(0)"><img src="/upload/advertisement/136668618199.jpg" style="width:585px;height:185px;"></a></li>
+                                        <li ><a href="javascript:void(0)"><img src="/upload/advertisement/136668619917.jpeg" style="width:585px;height:185px;"></a></li>
+                                    </ul>
+            </span>
+        </div>
+        <div id="ifocus_opdiv"></div>
+        <div id="ifocus_tx">
+            <span id="ctl00_ctl00_cphContent_cphContent_PortalFlash1_lab2">
+                <ul>
+                                         <li class="normal"><p>2013春季热招专本科网络教育</p></li>
+                                        <li class="current"><p>北航2013春节招生-网上报名</p></li>
+                                        <li class="normal"><p>单课培训</p></li>
+                                    </ul>
+            </span>
+        </div>
+    </div>
+    <div id="ifocus_btn">
+        <span id="ctl00_ctl00_cphContent_cphContent_PortalFlash1_lab3">
+            <ul>
+                                    <li class="normal"><img src="/upload/advertisement/136668615444.jpeg" style="width:75px;height:50px;"></li>
+                                        <li class="current"><img src="/upload/advertisement/136668618199.jpg" style="width:75px;height:50px;"></li>
+                                        <li class="normal"><img src="/upload/advertisement/136668619917.jpeg" style="width:75px;height:50px;"></li>
+                                </ul>
+        </span>
+    </div>
+</div>
+";i:1;N;}i:1;N;}

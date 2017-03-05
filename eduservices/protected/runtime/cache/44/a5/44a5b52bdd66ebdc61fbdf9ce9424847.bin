@@ -1,0 +1,22 @@
+a:2:{i:0;a:2:{i:0;s:947:"  
+	<tr style=''>
+	<td><input type="checkbox" name="selectdel[]" value="5709"></td>
+	<td>15&nbsp;&nbsp;[5709]</td>
+    <td class='showlist'>1403</td>
+    	<td>
+                    </td>
+	<td><a href="/studentview5709.html">史苏亚</a></td>
+	<td class="algin-left">身份证：320423197510035223</td>
+	<td class='showtype1' title='江苏省溧阳市书院巷61号'>江苏省溧阳市...</td>
+	<td class='showlist' >13961243201</td>
+	<td title='行政管理（高起专）'>高起专</td>
+	<td class='showlist showtype2' title='行政管理（高起专）'>行政管理（高起...</td>
+	
+    <td><span class='ycolor'>待审核</span></td>
+    <td title='常州市成人进修学院 '>常州市成人...</td>
+	<td class='showlist'>2014-02-25</td>
+    	<td>
+	<a href="/studentview5709.html">查看</a> 
+		 / <a href="/studentedit5709.html">编辑</a>
+			 / <a href="javascript:void(0)" onclick="deleteOne('students','5709')">删除</a></td>
+		</tr>";i:1;N;}i:1;N;}
