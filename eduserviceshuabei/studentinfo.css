@@ -1,0 +1,49 @@
+*{ margin:0; padding:0;}
+dl,ul,dl dd { list-style:none; margin:0;}
+body{ font-size:12px; font-family:"\5B8B\4F53"; color:#000;}
+.weight { font-weight:700;}
+.fs-gb2312 { font-family:"\5B8B\4F53"}
+table.t-table tr td.height40 { height:36px;}
+.print-button { text-align:center; margin-top:12}
+.box-print { margin:0 auto; width:794px;height:1123px;}
+h2.s-title { text-align:center; font-weight:1000; font-size:22px; margin:25px auto 20px auto;}
+h3.s-title { text-align:center; font-weight:1000; font-size:22px; margin:10px auto 10px auto;}
+.s-table{ margin:0 auto; width:100%; font-size:14px;}
+table.t-table { margin:0 auto; line-height:22px; text-align:center;border-collapse:collapse; border:1px solid #000;}
+table.t-table tr td { height:30px;}
+td.s-select { text-align:left;}
+td.s-select img {margin-left:12px;  margin-top:3px;}
+td.s-select0 img {margin-top:6px;}
+img.s-size { width:150px; height:210px;}
+span.s-position { float:right; padding-right:40px;}
+p.s-tip { margin-left:60px; font-size: 12px; margin-top:2px;}
+.s-sign { font-size:16px; font-family:"\5B8B\4F53"; font-weight:700; overflow:hidden; margin-top:6px;}
+.lineb2 { border-bottom:3px double #000; padding-bottom:12px;}
+.s-sign dl { margin-left:60px; width:300px; height:40px; float:left; display:inline; overflow:hidden;}
+.s-sign dl dt { width:120px; height:32px; line-height:40px; text-align:right; overflow:hidden; float:left;}
+.s-sign dl dd { width:150px; height:32px; line-height:40px; overflow:hidden; float:left; border-bottom:1px solid #000;}
+.s-directions { font-size:14px; line-height:20px; padding:0px 20px;}
+.s-directions-my { text-indent:24px;}
+ul.s-directions-ul li { margin:0 24px;}
+ul.s-directions-ul li > ul > li { margin:0 12px;}
+
+h2.s-title-t { font-weight:200; font-size:22px; height:80px; margin:5px auto 10px;}
+h2.s-title-t img { margin-left:60px; float:left;}
+h2.s-title-t span { font-size:25px; margin-left:6px; float:left; margin-top:23px;}
+/*.box-print { background:url("/img/bhlogo-200.png") 540px 850px no-repeat;}*/
+span.bm_line{text-decoration:underline; padding:0 3px;}
+
+/* allprint */
+.PageNext{page-break-after:always;}
+.box-print-all { margin:0 auto; width:794px;height:1120px; border:1px solid #ddd;}
+.from-tips { font-size:12px; color:#999; margin-top:0; float:right;}
+.print-img { text-align:center; overflow:hidden; clear:both; margin-top:50px;}
+.print-img p { font-size:14px; margin-bottom:6px;}
+img.img-sfz { max-width:400px; *width:400px;}
+img.img-byz { max-width:700px; *width:700px; max-height:650px; *height:500px;}
+.deg90 {
+	margin: 0px;
+    -moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}

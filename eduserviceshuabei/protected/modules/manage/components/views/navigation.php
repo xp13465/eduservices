@@ -1,0 +1,9 @@
+<?php
+    $this->widget('system.web.widgets.CTreeView',array(
+            'data'=>$data,
+            'animated'=>'fast',
+            'collapsed'=>true,//ture则何必,false则展开
+            'htmlOptions'=>array('class'=>'treeview-gray','id'=>'menueTree')
+        )
+    );
+?>

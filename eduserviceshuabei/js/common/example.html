@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="en" />
+        <link href="http://www.testjw.com/js/common/common.css" rel="stylesheet" />
+        <title>例子</title>
+    </head>
+
+    <body>
+        <div style="height: 1000px">
+        <input type="button" value="emp1" onclick="emp1()" />
+        <input type="button" value="emp2" onclick="emp2()" />
+        <input type="button" value="emp3" onclick="emp3()" />
+        <input type="button" value="emp4" onclick="emp4()" />
+        </div>
+        <script type="text/javascript">
+            function emp1(){
+                jw.pop.alert(
+                "排序已更改，是否保存？",
+                {
+                    ok: function(){$('#saveButton').click();},
+                    hasBtn_ok:true,
+                    ok_label:'保存',
+                    hasBtn_cancel:true,
+                    cancel:function(){
+                        setTimeout(function(){location.href=url},200);
+                    },
+                    icon:4
+                }
+            );
+            }
+            function emp2(){
+                jw.pop.alert(
+                '保存成功保存成功保存成功',
+                {
+                    icon: 1,
+                    autoClose:1000
+                }
+            );
+            }
+            function emp3(){ //自定义提示窗
+                var content = "<div style='background-color:red;height:200px;width:200px' >test</div>"
+                jw.pop.customtip(
+                "提示信息",
+                content,
+                {
+                    hasBtn_ok:true,
+                    hasBtn_cancel:true,
+                    ok: function(){alert("确定")},
+                    cancel:function(){
+                        setTimeout(function(){location.href=url},200);
+                    },
+                    btn_float:"center"
+                }
+            );
+            }
+            function emp4(){
+                jw.pop.tip("测试tip呀",{
+                    width:450,
+                    x:100,
+                    y:100
+                });
+            }
+        </script>
+        <script src="http://www.testjw.com/js/jquery.js"></script>
+        <script src="http://www.testjw.com/js/common/common.js"></script>
+    </body>
+</html>

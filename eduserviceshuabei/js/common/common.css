@@ -1,0 +1,75 @@
+.fl { float:left; }
+.fr { float:right; }
+/**基础弹层样式*/
+.mask { background:#000000; height:100%; left: 0; position: fixed; _position:absolute; top: 0; width:100%; z-index:10000; }
+.W_layer { font: normal normal normal 12px/20px Arial, Helvetica, sans-serif;color:#595959;font-style: normal;position: absolute; -moz-border-radius: 4px; -webkit-border-radius: 4px; z-index: 999; }
+.W_layer .bg { padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius:4px; background: url(/js/common/layer_bg.png) transparent repeat; }
+.W_layer .content { background: none repeat scroll 0 0 white; border: 1px solid #C6C6C6; border-radius: 3px 3px 3px 3px; border-radius:3px; position: relative; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.W_layer .title { background: #F3F3F3; height: 30px; line-height: 30px; padding: 0 0 0 10px; color: #595959; font-size: 14px; vertical-align: middle; }
+.W_layer .MT_close { position: absolute; z-index: 2; right: 14px; top: 5px; cursor:pointer }
+.W_layer .inner { padding:15px 10px; }
+/**按钮样式*/
+.W_btn_a, .W_btn_a span, .W_btn_a_disable, .W_btn_a_disable span { cursor:pointer; background:url(/js/common/btn.gif) no-repeat 0 -144px; color:#73797c; display:inline-block; padding:0 0 0 2px; zoom:1; font:12px/1.125 Arial, Helvetica, sans-serif; height:24px;text-decoration:none }
+.W_btn_a span, .W_btn_a_disable span { background-position:right -168px; padding:0 10px 0 8px; min-width:35px; text-align:center; height:24px; line-height:23px; line-height:24px \9; }
+.W_btn_a:hover { background-position:0 -192px; text-decoration:none; }
+.W_btn_a:hover span { background-position:right -216px; }
+.W_btn_b, .W_btn_b span, .W_btn_b_disable, .W_btn_b_disable span { cursor:pointer; background:url(/js/common/btn.gif) no-repeat; color:#fff; display:inline-block; padding:0 0 0 2px; height:24px; text-decoration:none}
+.W_btn_b span, .W_btn_b_disable span { background-position:right -24px; padding:0 10px 0 8px; min-width:37px; text-align:center; line-height:23px; line-height:24px\9; }
+.W_btn_b:hover { background-position:0 -48px; text-decoration:none; }
+.W_btn_b:hover span { background-position:right -72px; }
+.W_btn_a_disable, .W_btn_a_disable:hover, .W_btn_b_disable, .W_btn_b_disable:hover { background-position:0 -96px; cursor:default; }
+.W_btn_a_disable:hover, .W_btn_b_disable:hover { text-decoration:none; }
+.W_btn_a_disable span, .W_btn_a_disable span:hover, .W_btn_b_disable span, .W_btn_b_disable:hover span { background-position:right -120px; color:#c7c7c7; min-width:37px; cursor:default; }
+.W_btn_c, .W_btn_c span { cursor:pointer; background:url(/js/common/btn.gif) no-repeat 0 -288px; color:#73797c; display:inline-block; padding:0 0 0 2px; height:28px; }
+.W_btn_c span { background-position:right -316px; padding:0 10px 0 8px; min-width:40px; text-align:center; color:#fff; line-height:27px; line-height:28px \9; *line-height:27px; }
+.W_btn_c:hover { background-position:0 -344px; text-decoration:none; }
+.W_btn_c:hover span { background-position:right -372px }
+.MT_close { position: absolute; z-index: 2; right: 14px; top: 5px; cursor: pointer; width: 20px; height: 20px; background:url(/js/common/ico.png) 5px -250px no-repeat; display: block; cursor:pointer; }
+.MT_close:hover { background-position:0 -1954px; }
+.W_error { color:#F00; font:normal 18px/18px Constantia, Georgia, Times, serif; vertical-align:-2 }
+/** 警告弹窗样式*/ .mtAlert_icon { width:48px; height:45px; background:url(/js/common/ico_warn.png) -150px 5px no-repeat; _background:url(/js/common/ico_warn.gif) -150px 5px no-repeat;}
+.iconAlert_01 { background-position:-150px 5px; *background-position:-150px 1px; }
+.iconAlert_02 { background-position:-150px -92px; *background-position:-150px -96px; }
+.iconAlert_03 { background-position:-150px -47px; *background-position:-150px -51px; }
+.iconAlert_04 { background-position:-80px -135px; *background-position:-80px -139px; }
+.mtAlert_content { color:#666; font-size:14px; }
+.mtAlert_content .W_layer_l { width:48px; height:45px; vertical-align:middle; line-height:60px; display:inline; margin-left:15px; }
+.mtAlert_content .mtAlert_contentTxt { padding:15px 0 20px 10px; width:300px } .MT_btn_cancel { margin-left:10px; }
+.W_layer .fowardTarget { background: url(/js/common/layer_tab_bottom_bg.png) repeat-x scroll left bottom #f0f0f0; height: 27px; padding: 3px 0 0 10px; }
+.W_layer .fowardTarget a { height: 26px; line-height: 26px; margin: 0 -2px; padding: 0 11px; position:relative }
+.W_layer .fowardTarget .current { text-decoration:none; cursor:default; background:#fff; z-index:1; border:1px solid #e8e8e8; border-bottom:0; display:inline-block; -moz-border-radius-topright:3px; -webkit-border-top-right-radius:3px 3px; -moz-border-radius-topleft:3px; -webkit-border-top-left-radius:3px 3px; }
+.W_layer .W_vline { display:inline-block; text-indent:-1px; }
+.W_layer .fowardTarget .tab_title { font-size:14px; margin:0 0 0 15px; }
+.W_layer .fowardTarget a.current:link, .W_layer .fowardTarget:visited, .W_layer .fowardTarget:hover { color:#666; }
+.num { color: #B8B7B7; text-align: right; padding:0 4px }
+.layer_forward { line-height:20px }
+.layer_forward .num { height:24px; line-height:24px }
+.layer_forward .textarea { width:390px; height:36px; margin:0 0 0 3px; padding:3px; border:1px solid #CCC; font-size: 12px; overflow-y: auto; overflow-x: hidden; outline: medium none; }
+.layer_forward .action { float: left; margin-top:4px; width: 300px; padding-left:2px; }
+.layer_forward .action span { background: url(/js/common/ico.png) no-repeat scroll 0 0 transparent; cursor: pointer; display: inline; float: left; height: 16px; margin: 2px 11px 0 0; *margin-right:8px; width: 16px; }
+.layer_forward .commoned_list { float: left; }
+.W_checkbox { margin-right: 8px; vertical-align:-2px; *margin-right:5px; }
+.layer_forward .forward_content { line-height: 18px; margin: 20px 0 10px; overflow: hidden; padding: 6px 10px; width:400px; word-wrap: break-word; background:#F3F3F3; }
+/** mini 确认弹窗*/
+.mini_layer { position: absolute; -moz-border-radius: 4px; -webkit-border-radius: 4px; z-index: 999; overflow:hidden; }
+.mini_layer .bg { padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius:4px; background: url(/js/common/layer_bg.png) transparent repeat; }
+.mini_layer .content { background: none repeat scroll 0 0 white; border: 1px solid #C6C6C6; border-radius: 3px 3px 3px 3px; border-radius:3px; position: relative; -moz-border-radius: 3px; -webkit-border-radius: 3px; width:150px; }
+.layer_mini_info { padding: 12px 20px; }
+.layer_mini_info .btn { padding: 15px 0 0; text-align: center; }
+.layer_mini_info .btn a { margin: 0 5px; }
+.miniIcon1 { vertical-align: -4px; background: url(/js/common/ico_warn.png) no-repeat 0 0px; _background-image: url(/js/common/ico_warn.gif); display: inline-block; *display:inline; *zoom:1; height: 16px; margin: 0 3px 0 0; overflow: hidden; width: 16px; vertical-align:middle; }
+.miniIcon2 { vertical-align: -4px; *vertical-align:-2px; _vertical-align:0; background: url(/js/common/ico_warn.png) no-repeat 0 -50px; _background-image: url(/js/common/ico_warn.gif); display: inline-block; *display:inline; *zoom:1; height: 16px; margin: 0 3px 0 0; overflow: hidden; width: 16px; vertical-align:middle; }
+
+/** tip 提示弹窗*/
+.pop_layer { font: normal normal normal 12px/20px Arial, Helvetica, sans-serif;color:#595959;font-style: normal;position: absolute; -moz-border-radius: 4px; -webkit-border-radius: 4px; z-index: 999; }
+.pop_layer .bg { padding: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius:4px; background: url(/js/common/layer_bg_white.png) transparent repeat; }
+.pop_layer .close { position: absolute; z-index: 2; right:3px; top: 3px; }
+.pop_layer .content { background: none repeat scroll 0 0 white; border: 1px solid #C6C6C6; border-radius: 3px 3px 3px 3px; border-radius:3px; position: relative; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.pop_layer .inner { padding:15px 15px; overflow:hidden; }
+.pop_layer .arrow,
+.pop_layer .arrow_hui { background: url(/js/common/layer_arrow.png) no-repeat 0 0; _background: url(/js/common/layer_arrow.gif) no-repeat 0 0; display: block; overflow: hidden; position: absolute; }
+.arrow_t { background-position: 0 -1px; height: 11px; left: 30px; top: -11px; width: 16px; }
+.arrow_b { background-position: 0 -12px; height: 11px; left: 30px; bottom: -11px; width: 16px; }
+.arrow_l { background-position: -0px -24px; height: 16px; top: 10px; left: -7px; width:7px; }
+.pop_layer .arrow_r { background-position: -12px -24px; height: 16px; top: 30px; right: -11px; width: 11px; }
+.backgroundImgBefore { display:none; position:absolute; }
